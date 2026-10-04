@@ -1,0 +1,339 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Bliss | Home</title><style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: white;
+        color: #222;
+    }
+
+    header {
+        background: #8b0000;
+        color: white;
+        text-align: center;
+        padding: 25px 20px;
+    }
+
+    header h1 {
+        font-family: Georgia, serif;
+        font-size: 45px;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+    }
+
+    header p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    nav {
+        background: #111;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 15px;
+        gap: 25px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 0;
+    }
+
+    nav a:hover {
+        color: #ffcccc;
+    }
+
+    .hero {
+        min-height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 60px 7%;
+        background: #f8f3ef;
+    }
+
+    .hero-text {
+        flex: 1;
+        max-width: 500px;
+    }
+
+    .welcome {
+        font-family: Georgia, serif;
+        font-style: italic;
+        font-size: 45px;
+        color: #8b0000;
+        margin-bottom: 5px;
+    }
+
+    .hero-text h2 {
+        font-family: Georgia, serif;
+        font-size: 58px;
+        color: #8b0000;
+        margin-bottom: 10px;
+    }
+
+    .hero-text h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+        line-height: 1.7;
+        margin-bottom: 25px;
+    }
+
+    .menu-button {
+        display: inline-block;
+        background: #8b0000;
+        color: white;
+        padding: 15px 28px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .menu-button:hover {
+        background: #111;
+    }
+
+    .hero-image {
+        flex: 1;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 600px;
+        border-radius: 15px;
+    }
+
+    /* CORE VALUES */
+
+    .core-values {
+        padding: 60px 7%;
+        text-align: center;
+        background: white;
+    }
+
+    .core-values h2 {
+        color: #8b0000;
+        font-family: Georgia, serif;
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .core-values > p {
+        margin-bottom: 35px;
+        font-size: 17px;
+    }
+
+    .values-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+
+    .value-card {
+        background: #f8f3ef;
+        padding: 30px 20px;
+        border-top: 5px solid #8b0000;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+    .value-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    }
+
+    .value-icon {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .value-card h3 {
+        color: #8b0000;
+        margin-bottom: 10px;
+        font-size: 21px;
+    }
+
+    .value-card p {
+        line-height: 1.6;
+        font-size: 15px;
+    }
+
+    .values-button {
+        display: inline-block;
+        margin-top: 35px;
+        background: #8b0000;
+        color: white;
+        padding: 13px 25px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .values-button:hover {
+        background: #111;
+    }
+
+    footer {
+        background: #111;
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    @media (max-width: 900px) {
+
+        .hero {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .values-container {
+            grid-template-columns: 1fr 1fr;
+        }
+
+    }
+
+    @media (max-width: 500px) {
+
+        header h1 {
+            font-size: 35px;
+        }
+
+        nav {
+            gap: 12px;
+        }
+
+        nav a {
+            font-size: 13px;
+        }
+
+        .welcome {
+            font-size: 35px;
+        }
+
+        .hero-text h2 {
+            font-size: 45px;
+        }
+
+        .values-container {
+            grid-template-columns: 1fr;
+        }
+
+    }
+</style>
+
+</head><body><header>
+    <h1>TEA BLISS</h1>
+    <p>Your Happiness in Every Sip</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="background.html">Background</a>
+    <a href="mission&vision.html">Mission & Vision</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact</a>
+    <a href="product.html">Products</a>
+</nav>
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <div class="welcome">Welcome to</div>
+
+        <h2>TEA BLISS</h2>
+
+        <h3>Your Happiness in Every Sip</h3>
+
+        <p>
+            Indulge in our delicious milk tea, made with quality
+            ingredients and a touch of love. Because every sip
+            should bring you happiness.
+        </p>
+    </div>
+
+    <div class="hero-image">
+        <img src="tea-bliss.png" alt="Tea Bliss Milk Tea">
+    </div>
+
+</section>
+
+<!-- CORE VALUES -->
+
+<section class="core-values">
+
+    <h2>Our Core Values</h2>
+
+    <p>
+        The values that inspire us to make every cup special.
+    </p>
+
+    <div class="values-container">
+
+        <div class="value-card">
+            <div class="value-icon">🧋</div>
+            <h3>Quality</h3>
+            <p>
+                We provide quality drinks made with carefully
+                selected ingredients.
+            </p>
+        </div>
+
+        <div class="value-card">
+            <div class="value-icon">❤️</div>
+            <h3>Customer Satisfaction</h3>
+            <p>
+                We value every customer and strive to provide
+                a happy and satisfying experience.
+            </p>
+        </div>
+
+        <div class="value-card">
+            <div class="value-icon">✨</div>
+            <h3>Creativity</h3>
+            <p>
+                We create exciting flavors and ideas to make
+                every drink enjoyable and unique.
+            </p>
+        </div>
+
+        <div class="value-card">
+            <div class="value-icon">🤝</div>
+            <h3>Friendliness</h3>
+            <p>
+                We treat every customer with kindness, respect,
+                and a welcoming attitude.
+            </p>
+        </div>
+
+    </div>
+
+   
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Tea Bliss. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tea Bliss | Mission & Vision</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: white;
+            color: #222;
+        }
+
+        header {
+            background: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+        }
+
+        header h1 {
+            font-family: Georgia, serif;
+            font-size: 45px;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav {
+            background: #111;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 15px;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 0;
+        }
+
+        nav a:hover {
+            color: #ffcccc;
+        }
+
+        .mission-vision {
+            padding: 70px 7%;
+            background: #f8f3ef;
+            min-height: 500px;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .page-title h2 {
+            font-family: Georgia, serif;
+            font-size: 42px;
+            color: #8b0000;
+            margin-bottom: 10px;
+        }
+
+        .page-title p {
+            font-size: 17px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            flex: 1;
+            padding: 40px 30px;
+            text-align: center;
+            border-top: 5px solid #8b0000;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.10);
+        }
+
+        .card h3 {
+            color: #8b0000;
+            font-family: Georgia, serif;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .card p {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .back-container {
+            max-width: 1000px;
+            margin: 40px auto 0;
+            text-align: left;
+        }
+
+        .back-button {
+            display: inline-block;
+            background: #8b0000;
+            color: white;
+            padding: 13px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-button:hover {
+            background: #111;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 800px) {
+            .cards {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 500px) {
+            header h1 {
+                font-size: 35px;
+            }
+
+            nav {
+                gap: 12px;
+            }
+
+            nav a {
+                font-size: 13px;
+            }
+
+            .page-title h2 {
+                font-size: 35px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>TEA BLISS</h1>
+    <p>Your Happiness in Every Sip</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="background.html">Background</a>
+    <a href="mission&vision.html">Mission & Vision</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact</a>
+    <a href="product.html">Products</a>
+</nav>
+
+<section class="mission-vision">
+
+    <div class="page-title">
+        <h2>Mission & Vision</h2>
+        <p>What inspires Tea Bliss to serve happiness in every sip.</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Our Mission</h3>
+
+            <p>
+                Our mission is to provide delicious, high-quality milk tea
+                that brings happiness and refreshment to every customer.
+                We aim to create a welcoming experience while using quality
+                ingredients and serving every drink with care.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Our Vision</h3>
+
+            <p>
+                Our vision is to become a trusted and loved milk tea shop
+                known for great taste, creativity, quality service, and
+                memorable experiences for every customer.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="back-container">
+        <a href="index.html" class="back-button">← Back to Home</a>
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Tea Bliss. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

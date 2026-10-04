@@ -1,0 +1,293 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Tea Bliss | Products</title>
+
+<style>
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: white;
+        color: #222;
+    }
+
+    header {
+        background-color: #8b0000;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 35px;
+        margin-bottom: 8px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav {
+        background-color: #111;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #ffcccc;
+    }
+
+    .content {
+        max-width: 1000px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .content h2 {
+        text-align: center;
+        color: #8b0000;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+    }
+
+    .product {
+        background-color: #f5f5f5;
+        border-top: 5px solid #8b0000;
+        padding: 20px;
+        text-align: center;
+        border-radius: 6px;
+    }
+
+    /* PRODUCT IMAGE */
+    .product img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 6px;
+        margin-bottom: 15px;
+    }
+
+    .product h3 {
+        color: #8b0000;
+        margin-bottom: 12px;
+        font-size: 22px;
+    }
+
+    .product p {
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        font-weight: bold;
+        color: #111;
+        font-size: 18px;
+    }
+
+    .back-button {
+        display: inline-block;
+        margin-top: 30px;
+        background-color: #8b0000;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+
+    .back-button:hover {
+        background-color: #111;
+    }
+
+    footer {
+        background-color: #111;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+</style>
+
+</head><body><!-- HEADER -->
+
+<header>
+
+    <h1>TEA BLISS</h1>
+
+    <p>Your Happiness in Every Sip</p>
+
+</header>
+
+
+<!-- NAVIGATION -->
+
+<nav>
+
+    <a href="index.html">Home</a>
+
+    <a href="background.html">Background</a>
+
+    <a href="mission&vision.html">Mission & Vision</a>
+
+    <a href="aboutus.html">About Us</a>
+
+    <a href="contactus.html">Contact</a>
+
+    <a href="product.html">Products</a>
+
+</nav>
+
+
+<!-- PRODUCTS SECTION -->
+
+<section class="content">
+
+    <h2>Our Products</h2>
+
+
+    <div class="products">
+
+
+        <!-- PRODUCT 1 -->
+
+        <div class="product">
+
+            <img src="classic-milk-tea.jpg" alt="Classic Milk Tea">
+
+            <h3>Classic Milk Tea</h3>
+
+            <p>
+                Our classic creamy milk tea with chewy pearls.
+            </p>
+
+            <p class="price">₱99</p>
+
+        </div>
+
+
+        <!-- PRODUCT 2 -->
+
+        <div class="product">
+
+            <img src="wintermelon-milk-tea.jpg" alt="Wintermelon Milk Tea">
+
+            <h3>Wintermelon Milk Tea</h3>
+
+            <p>
+                A refreshing and sweet wintermelon-flavored milk tea.
+            </p>
+
+            <p class="price">₱109</p>
+
+        </div>
+
+
+        <!-- PRODUCT 3 -->
+
+        <div class="product">
+
+            <img src="chocolate-milk-tea.jpg" alt="Chocolate Milk Tea">
+
+            <h3>Chocolate Milk Tea</h3>
+
+            <p>
+                A rich and creamy chocolate-flavored milk tea.
+            </p>
+
+            <p class="price">₱109</p>
+
+        </div>
+
+
+        <!-- PRODUCT 4 -->
+
+        <div class="product">
+
+            <img src="matcha-milk-tea.jpg" alt="Matcha Milk Tea">
+
+            <h3>Matcha Milk Tea</h3>
+
+            <p>
+                A smooth milk tea with a delicious matcha flavor.
+            </p>
+
+            <p class="price">₱119</p>
+
+        </div>
+
+
+        <!-- PRODUCT 5 -->
+
+        <div class="product">
+
+            <img src="strawberry-milk-tea.jpg" alt="Strawberry Milk Tea">
+
+            <h3>Strawberry Milk Tea</h3>
+
+            <p>
+                A sweet and fruity milk tea perfect for strawberry lovers.
+            </p>
+
+            <p class="price">₱119</p>
+
+        </div>
+
+
+        <!-- PRODUCT 6 -->
+
+        <div class="product">
+
+            <img src="cookies-cream.jpg" alt="Cookies & Cream">
+
+            <h3>Cookies &amp; Cream</h3>
+
+            <p>
+                A creamy milk tea blended with a delicious
+                cookies-and-cream flavor.
+            </p>
+
+            <p class="price">₱129</p>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- BACK BUTTON -->
+
+    <a href="index.html" class="back-button">
+        ← Back to Home
+    </a>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>&copy; 2026 Tea Bliss. All Rights Reserved.</p>
+
+</footer>
+
+</body></html>
